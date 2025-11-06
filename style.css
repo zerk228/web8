@@ -1,0 +1,70 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Эффект наведения на карточку */
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Футер */
+footer {
+  margin-top: auto;
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* === Центрированная карусель в стиле MangaLib === */
+.banner-section {
+  padding: 40px 0;
+}
+
+.banner-centered {
+  display: block;
+  margin: 0 auto;
+  max-width: 350px; /* фиксированная ширина постера */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Кнопки “вперёд/назад” */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .banner-centered {
+    max-width: 250px;
+  }
+  .carousel-caption {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+main {
+  flex: 1;
+}
