@@ -5,7 +5,6 @@ body {
   color: #333;
 }
 
-/* Эффект наведения на карточку */
 .card {
   transition: transform 0.3s ease;
 }
@@ -13,7 +12,7 @@ body {
   transform: translateY(-5px);
 }
 
-/* Футер */
+
 footer {
   margin-top: auto;
   background-color: #111;
@@ -22,7 +21,7 @@ footer {
   padding: 15px;
 }
 
-/* === Центрированная карусель в стиле MangaLib === */
+
 .banner-section {
   padding: 40px 0;
 }
@@ -30,19 +29,18 @@ footer {
 .banner-centered {
   display: block;
   margin: 0 auto;
-  max-width: 350px; /* фиксированная ширина постера */
+  max-width: 350px; 
   height: auto;
   border-radius: 10px;
 }
 
-/* Кнопки “вперёд/назад” */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     border-radius: 15%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Мобильная адаптация */
 @media (max-width: 768px) {
   .banner-centered {
     max-width: 250px;

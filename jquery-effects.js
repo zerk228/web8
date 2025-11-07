@@ -1,4 +1,4 @@
-// jquery-effects.js — добавление нового отзыва с анимацией
+// добавление нового отзыва 
 $("#reviewForm").on("submit", function (e) {
   e.preventDefault();
   const text = $("#reviewText").val().trim();

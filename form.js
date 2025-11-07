@@ -1,4 +1,3 @@
-// form.js — простая валидация формы "Контакты"
 document.getElementById("contactForm").addEventListener("submit", (e) => {
   e.preventDefault();
   const name = document.getElementById("name").value.trim();
