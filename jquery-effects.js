@@ -1,5 +1,4 @@
-// добавление нового отзыва 
-$("#reviewForm").on("submit", function (e) {
+ $("#reviewForm").on("submit", function (e) {
   e.preventDefault();
   const text = $("#reviewText").val().trim();
   if (!text) return;
